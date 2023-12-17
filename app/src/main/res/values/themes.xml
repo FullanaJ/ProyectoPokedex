@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ProyectoPokedex" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/rojo</item>
+    </style>
+    <style name="ShapeAppearanceOverlay.CardView" parent="">
+        <item name="cornerFamilyBottomLeft">rounded</item>
+        <item name="cornerFamilyBottomRight">rounded</item>
+        <item name="cornerSizeBottomLeft">30%</item>
+        <item name="cornerSizeBottomRight">30%</item>
+    </style>
+    <style name="Theme.ProyectoPokedex" parent="Base.Theme.ProyectoPokedex" />
+</resources>
